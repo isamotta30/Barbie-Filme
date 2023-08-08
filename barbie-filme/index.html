@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbie - Filme</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <script src="main.js" defer></script>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png" />
+    </head>
+
+    <body>
+    <div class="container">
+    <section class="cast">
+    <a href="https://www.google.com/search?gs_ssp=eJzj4tLP1TcwqUxJSa8wYPTizU0sSs8vUSjKT0rKTAUAdxAJCQ&q=margot+robbie&rlz=1C1GCEU_pt-BRBR1046BR1046&oq=&aqs=chrome.7.35i39i362j46i39i199i362i465j35i39i362l5j46i39i362.991284j0j15&sourceid=chrome&ie=UTF-8" target="_blank"><span>Margot Robbie</span></a>
+    <a href="   https://www.google.com/search?q=ryan+gosling&rlz=1C1GCEU_pt-BRBR1046BR1046&sxsrf=AB5stBiNs9pnpLbdLJdP1NH8Lfbr_mXC9Q%3A1691511757812&ei=zWvSZJGZMcSa1sQPg9mq6Ac&gs_ssp=eJzj4tTP1TcwzjWLrzJg9OIpqkzMU0jPL87JzEsHAF96CBI&oq=ryan&gs_lp=Egxnd3Mtd2l6LXNlcnAiBHJ5YW4qAggAMg0QLhiKBRixAxiDARhDMggQLhiABBixAzINEC4YigUYsQMYgwEYQzIHEAAYigUYQzIREC4YgAQYsQMYgwEYxwEY0QMyCBAuGIAEGLEDMggQLhiABBixAzIKEAAYigUYsQMYQzIIEC4YgAQYsQMyBRAuGIAEMhwQLhiKBRixAxiDARhDGJcFGNwEGN4EGN8E2AECSOAXUPIHWPYMcAF4AZABAJgBnwKgAaEIqgEDMi00uAEByAEA-AEBqAISwgIHEC4Y6gIYJ8ICBxAjGOoCGCfCAg0QLhjHARjRAxjqAhgnwgITEC4YigUYyAMY6gIYtAIYQ9gBAcICBxAjGIoFGCfCAgcQLhiKBRhDwgILEAAYgAQYsQMYgwHCAgsQLhiABBixAxiDAcICChAuGIoFGLEDGEPCAggQABiABBixA-IDBBgAIEGIBgG6BgYIARABGAi6BgYIAhABGBQ&sclient=gws-wiz-serp" target="_blank"><span>Ryan Gosling</span></a>
+    </section>
+
+
+    <section class="phrase">
+        <h2>Ela é tudo</h2>
+        <h2>Ele é só o ken.</h2>
+    </section>
+
+    <section class="infos">
+        <div class="cine">
+     <a href="https://www.google.com/search?q=barbie" target="_blank"> <p>20 de Julho</p>
+        <p>Somente nos cinemas</p></a>
+      
+        </div>
+
+        <div class="social">
+         <a href="https://www.tiktok.com/@barbie" target="_blank"><i class="ph-duotone ph-tiktok-logo"></i></a>
+         <a href="https://twitter.com/Barbie?" target="_blank"><i class="ph-duotone ph-twitter-logo"></i></a>
+         <a href="https://www.instagram.com/barbie/" target="_blank"><i class="ph-duotone ph-instagram-logo"></i></a>
+         <a href="https://www.facebook.com/oficialbarbiebrasil/?locale=pt_BR" target="_blank"><i class="ph-duotone ph-facebook-logo"></i></a>
+        </div>
+
+        <section class="buttons">
+            <button><a href="https://www.ingresso.com/filme/barbie?gad=1&gclid=Cj0KCQjwz8emBhDrARIsANNJjS5OlHjj0IUGeo0XtzuSNYth6sPCJSpbHSJxvIsKT1scNW6hta8QGdYaApG5EALw_wcB" target="_blank">Compre seu ingresso </a></button>
+            <button><a href="#" id="openModalBtn">Assista ao trailer</a></button>
+        </section>
+        </section>
+
+        <div id="modalContainer">
+            <iframe id="youtubeIframe" with="1280" height="720" src="https//www.youtube.com/embed/GRyt3Ov4zz0?controls=0" frameborder="0"
+ allowfullscreen></iframe>
+</div>
+
+<footer>
+    <i class="ph-duotone ph-speaker-high" onclick="playAudio()"></i>
+<i class="ph-duotone ph-speaker-slash" onclick="playAudio()"></i>
+
+<audio id="music" loop>
+    <source src="audio/barbie.mp3" type="audio/mpeg" />
+</audio>
+
+<img src="assets/warner-logo.svg"
+ alt="" />
+ 
+ </footer>
+ </div>
+    </body>
+</html>
